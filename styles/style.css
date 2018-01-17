@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Link styling */
+.link {padding-left: 1em;
+  text-decoration: none;
+  color: #333;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Header styling */
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.25%;
+  padding: .35em;
+  word-spacing: 1em;
+  font-family: arial, sans-serif;
+}
+
+/* main content styling */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#main-content img {
+  margin-top: 8.7em;
+  margin-bottom: 1.6em;
+  height: 92px;
+  width: 272px;
+}
+
+form {
+  width: 570px;
+  margin-bottom: 1.6em;
+  border: 1px solid #eee;
+}
+
+#main-content #search {
+  width: 540px;
+  border: none;
+  margin: 1em;
+}
+
+#main-content #search:focus {
+  outline: none;
+}
+
+/* Footer styling */
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: .8em;
+  padding-bottom: .8em;
+  word-spacing: 1em;
+  font-family: arial, sans-serif;
+  background-color: #eee;
+}
+
+/* Misc styling */
+.LA, .RA {
+  font-size: .8em;
+  padding: 0 1.68em;
+}
+
+.LA {
+  padding-left: 1em;
+}
+
+.RA {
+  padding-right: 1em;
+}

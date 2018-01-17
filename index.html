@@ -3,31 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
   <body>
-    <div id="header">
-      <a class="link" href="#">About</a>
-      <a class="link" href="#">Store</a>
-      <a class="link" href="#">Gmail</a>
-      <a class="link" href="#">Images</a>
-      <button id="signIn" type="button" name="signIn">Sign in</button>
-    </div>
+    <div id="container">
+      <div id="header">
+        <div class="LA">
+          <a class="link" href="#">About</a>
+          <a class="link" href="#">Store</a>
+        </div>
+        <div class="RA">
+          <a class="link" href="#">Gmail</a>
+          <a class="link" href="#">Images</a>
+          <button id="signIn" type="button" name="signIn">Sign in</button>
+        </div>
+      </div>
 
-    <div id="main-content">
-      <img src="#">
-      <form id="search" action="index.html" method="post">
-        <input type="text" name="search" placeholder="Search">
-      </form>
-      <button class="searchBtn" type="button" name="searchBtn">Google Search</button>
-      <button class="searchBtn" type="button" name="feelingLucky">I'm Feeling Lucky</button>
-    </div>
+      <div id="main-content">
+        <img src="assets/googleLogo.png">
+        <form action="index.html" method="post">
+          <input id="search" type="text" name="search">
+        </form>
+        <div id="btns">
+          <button class="searchBtn" type="button" name="searchBtn">Google Search</button>
+          <button class="searchBtn" type="button" name="feelingLucky">I'm Feeling Lucky</button>
+        </div>
+      </div>
 
-    <div id="footer">
-      <a class="LA" href="#">Advertising</a>
-      <a class="LA" href="#">Business</a>
-      <a class="RA" href="#">Privacy</a>
-      <a class="RA" href="#">Terms</a>
-      <a class="RA" href="#">Settings</a>
+      <div id="footer">
+        <div class="LA">
+          <a class="link" href="#">Advertising</a>
+          <a class="link" href="#">Business</a>
+        </div>
+        <div class="RA">
+          <a class="link" href="#">Privacy</a>
+          <a class="link" href="#">Terms</a>
+          <a class="link" href="#">Settings</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
