@@ -65,6 +65,7 @@ form {
   width: 570px;
   margin-bottom: 1.6em;
   border: 1px solid #eee;
+  box-shadow: 0 3px 1px 1px #ddd;
 }
 
 #main-content #search {
@@ -75,6 +76,15 @@ form {
 
 #main-content #search:focus {
   outline: none;
+}
+
+#main-content .searchBtn {
+  background-color: #eee;
+  color: #757575;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  padding: .7em 1.5em;
+  border: none;
 }
 
 /* Footer styling */
@@ -88,6 +98,7 @@ form {
   word-spacing: 1em;
   font-family: arial, sans-serif;
   background-color: #eee;
+  border-top: 1px solid #ddd;
 }
 
 /* Misc styling */
